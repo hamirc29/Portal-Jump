@@ -291,10 +291,10 @@ function bounceS()
 }
 
 
-function keyPressed() {
-  if (key === "s") pVy = 0;
-  if (key === "a") pX -= pSize;
-  if (key === "d") pX += pSize;
+function keyCoded() {
+  if (key === "s" || keyCoded = DOWN_ARROW) pVy = 0;
+  if (key === "a" || keyCoded = LEFT_ARROW) pX -= pSize;
+  if (key === "d" || keyCoded = RIGHT_ARROW) pX += pSize;
 
   if (lives <= 0 && keyCode === ENTER) {
     restartGame();
