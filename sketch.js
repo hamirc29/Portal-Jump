@@ -291,7 +291,7 @@ function bounceS()
 }
 
 
-function keyCoded() {
+function keyPressed() {
   if (key === "s") pVy = 0;
   if (key === "a") pX -= pSize;
   if (key === "d") pX += pSize;
